@@ -1,14 +1,5 @@
-// src/components/Gallery.jsx
 import { motion } from "framer-motion";
-import {
-  Jewel1,
-  Jewel2,
-  Jewel3,
-  Jewel4,
-  Jewel5,
-  Jewel6,
-  Jewel7,
-} from "../assets"; // Add more images here
+import { Jewel1, Jewel2, Jewel3, Jewel4, Jewel5, Jewel6, Jewel7 } from "../assets";
 
 const galleryImages = [
   { id: 1, img: Jewel1 },
@@ -41,19 +32,20 @@ const Gallery = () => {
         Gallery
       </motion.h2>
 
-      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 max-w-6xl mx-auto">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-4 max-w-6xl mx-auto">
         {galleryImages.map((item, i) => (
           <motion.div
             key={item.id}
             className="overflow-hidden rounded-xl shadow-md"
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
-            transition={{ delay: i * 0.1, duration: 0.4 }}
+            transition={{ duration: 0.4 }} // Remove delay for smoother transition
           >
             <img
               src={item.img}
               alt={`Jewelry ${item.id}`}
               className="w-full h-60 object-cover hover:scale-105 transition-transform duration-500"
+              loading="lazy" // Lazy load the image
             />
           </motion.div>
         ))}
