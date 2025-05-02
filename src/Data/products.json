@@ -2,73 +2,73 @@
     {
       "id": 1,
       "name": "Gold Ring",
-      "img": "src/assets/Jewel1.jpg",
+      "img": "src/assets/Jewel1.png",
       "description": "A beautifully crafted gold ring, perfect for any occasion."
     },
     {
       "id": 2,
       "name": "Diamond Necklace",
-      "img": "src/assets/Jewel2.jpg",
+      "img": "src/assets/Jewel2.png",
       "description": "A stunning diamond necklace that shines with elegance."
     },
     {
       "id": 3,
       "name": "Silver Earrings",
-      "img": "src/assets/Jewel3.jpg",
+      "img": "src/assets/Jewel3.png",
       "description": "Delicate silver earrings, designed to complement any outfit."
     },
     {
       "id": 4,
       "name": "Emerald Bracelet",
-      "img": "src/assets/Jewel4.jpg",
+      "img": "src/assets/Jewel4.png",
       "description": "An exquisite emerald bracelet that adds a touch of luxury."
     },
     {
       "id": 5,
       "name": "Ruby Pendant",
-      "img": "src/assets/Jewel5.jpg",
+      "img": "src/assets/Jewel5.png",
       "description": "A vibrant ruby pendant that captures the essence of passion."
     },
     {
       "id": 6,
       "name": "Pearl Necklace",
-      "img": "src/assets/Jewel6.jpg",
+      "img": "src/assets/Jewel6.png",
       "description": "A classic pearl necklace, symbolizing timeless elegance."
     },
     {
       "id": 7,
       "name": "Platinum Watch",
-      "img": "src/assets/Jewel7.jpg",
+      "img": "src/assets/Jewel7.png",
       "description": "A sleek platinum watch, the perfect accessory for every occasion."
     },
     {
       "id": 8,
       "name": "Sapphire Ring",
-      "img": "src/assets/Jewel8.jpg",
+      "img": "src/assets/Jewel8.png",
       "description": "A stunning sapphire ring that radiates beauty and sophistication."
     },
     {
       "id": 9,
       "name": "Gold Cufflinks",
-      "img": "src/assets/Jewel9.jpg",
+      "img": "src/assets/Jewel9.png",
       "description": "Elegant gold cufflinks, ideal for formal occasions."
     },
     {
       "id": 10,
       "name": "Diamond Studs",
-      "img": "src/assets/Jewel10.jpg",
+      "img": "src/assets/Jewel10.png",
       "description": "Classic diamond studs that add a touch of sparkle to any outfit."
     },
     {
       "id": 11,
       "name": "Amethyst Ring",
-      "img": "src/assets/Jewel11.jpg",
+      "img": "src/assets/Jewel11.png",
       "description": "A beautiful amethyst ring, perfect for adding a pop of color."
     },
     {
       "id": 12,
       "name": "Turquoise Bracelet",
-      "img": "src/assets/Jewel12.jpg",
+      "img": "src/assets/Jewel12.png",
       "description": "A vibrant turquoise bracelet that brings a touch of nature."
     }
   ]
