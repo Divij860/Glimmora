@@ -1,14 +1,35 @@
+// src/components/Gallery.jsx
 import { motion } from "framer-motion";
-import { useEffect, useState } from "react";
-import productsData from "../data/products.json"; // Assuming your JSON file is placed in the 'data' folder
+import {
+  Jewel1,
+  Jewel2,
+  Jewel3,
+  Jewel4,
+  Jewel5,
+  Jewel6,
+  Jewel7,
+} from "../assets"; // Add more images here
+
+const galleryImages = [
+  { id: 1, img: Jewel1 },
+  { id: 2, img: Jewel2 },
+  { id: 3, img: Jewel3 },
+  { id: 4, img: Jewel4 },
+  { id: 5, img: Jewel5 },
+  { id: 6, img: Jewel6 },
+  { id: 7, img: Jewel7 },
+  { id: 8, img: Jewel1 },
+  { id: 9, img: Jewel2 },
+  { id: 10, img: Jewel3 },
+  { id: 11, img: Jewel4 },
+  { id: 12, img: Jewel5 },
+  { id: 13, img: Jewel6 },
+  { id: 14, img: Jewel7 },
+  { id: 15, img: Jewel1 },
+  { id: 16, img: Jewel2 },
+];
 
 const Gallery = () => {
-  const [galleryImages, setGalleryImages] = useState([]);
-
-  useEffect(() => {
-    setGalleryImages(productsData);
-  }, []);
-
   return (
     <section className="py-20 px-4 bg-amber-50">
       <motion.h2
@@ -31,7 +52,7 @@ const Gallery = () => {
           >
             <img
               src={item.img}
-              alt={item.name} // Using name instead of generic "Jewelry"
+              alt={`Jewelry ${item.id}`}
               className="w-full h-60 object-cover hover:scale-105 transition-transform duration-500"
             />
           </motion.div>

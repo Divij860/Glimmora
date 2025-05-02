@@ -4,7 +4,7 @@ import './Loading.css'; // Import the custom CSS for animations
 import { Logo } from '../assets';
 
 const LoadingPage = () => {
-  const text = "Glimmora";
+  const text = "Glimmera";
 
   return (
     <div className="w-full h-screen flex flex-col justify-center items-center bg-gray-100">

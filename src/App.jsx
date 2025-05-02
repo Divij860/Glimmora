@@ -12,7 +12,7 @@ const App = () => {
     // Simulate a delay of 3 seconds before showing the Home component
     setTimeout(() => {
       setLoading(false); // Set loading to false after the delay
-    }, 3000); // You can adjust the timeout duration as needed
+    }, 4000); // You can adjust the timeout duration as needed
   }, []);
 
   return (
